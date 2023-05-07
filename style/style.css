@@ -15,7 +15,7 @@
 .bodyback{
     
     background-image: url(../img/background.svg);
-    background-size: cover;
+    
 
 }
 .headerback{
@@ -46,8 +46,7 @@
 }
 .section_content{
     /* background-image: url(../img/background.svg); */
-    background-size: cover;
-     
+    background-size: cover; 
 }
 .row{
     display: flex;
@@ -103,7 +102,7 @@ padding-bottom: 34px;
 .sec2container{
     width: 1180px;
     height: 220px;
-    background: #000000;
+    /* background: #000000; */
 }
 a{
     display: flex;
@@ -122,10 +121,9 @@ a{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 22px;
     color: #FFFFFF;
-    padding-bottom: 30px;
     margin-left: 0px;
     background: #000000;
     width: 458px;
@@ -157,4 +155,29 @@ position:;
 .flex2image{
     height: 50px;
     margin-left: 315px;
+}
+.sec3container{
+    width: 1180px;
+    background: #000000;
+    margin-top: 600px;
+}
+.sec3h1{
+    width: 252px;
+    height: 75px;
+    left: 195px;
+    top: 2134px;
+    font-family: 'Glinster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+    background: #000000;
+    color: #D0B8AC;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+.sec3div50{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 90px;
 }
