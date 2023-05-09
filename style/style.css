@@ -205,6 +205,7 @@ a{
 .desktop-only{
     display: block;
 }
+
 @media only screen and (max-width: 576px) {
         .maincontainer{
             width: 90%;
@@ -245,6 +246,7 @@ a{
             background-size: cover;
             background-repeat: no-repeat;
             background-position-x: 70%;
+            margin: 0px;
         }
         .prbtn{
             font-family: 'Open Sans';
@@ -267,11 +269,30 @@ a{
             padding-top: 18px;
         }
         .social{
-            margin-right: 253px;
+            margin-right: 0px;
             padding-top: 100px;
             margin-left: 0px;
         }
         .divflex{
             margin: 0px;
         }
+        .sec2h1{
+            margin-left: 5px;
+            font-family: 'Glinster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 130px;
+            color: #D0B8AC;
+        }
+        .div-img1{
+            margin-left: 75px;
+            margin-top: 150px;
+            
+        
+        }
+        /* shavi borderi rato ichiteba dapataravebisas ? section is bralia?
+        P ver chamovitane dabla saertod ar chans??
+        ra chavuwero FLEX S rom dapataravebisas flex rojebi dabla chamovides suratian teqstianad?? 
+        fonti gadmovwere da ver gamovachine?*/
 }
